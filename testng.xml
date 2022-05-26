@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="email" value="anjali.sagar@hotmail.com"></parameter>
+	<parameter name="pass" value="Amazon@123"></parameter>
+	<parameter name="zip1" value="l6p"></parameter>
+	<parameter name="zip2" value="1r3"></parameter>
+	<parameter name="url" value="https://www.amazon.ca"/>
+	<parameter name="url" value="https://www.amzon.com"/>
+	<test thread-count="5" name="opera">
+		<parameter name="browser" value="chrome"/>
+		<packages>
+			<package name="test" />
+		</packages>
+	</test> 
+	<test thread-count="5" name="LoginValidtest">
+		<parameter name="browser" value="opera"/>
+		<packages>
+			<package name="test" />
+		</packages>
+	</test> Test
+	<test thread-count="5" name="opera">
+		<parameter name="browser" value="opera"/>
+		<packages>
+			<package name="test" />
+		</packages>
+	</test> 
+</suite> 
+<!-- Suite -->
+ 
+ 

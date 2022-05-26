@@ -1,0 +1,6 @@
+pom\CreateWishList.class
+pom\LoginValidation.class
+utils\ReadProperties.class
+pom\SamsungMobile.class
+utils\CommonMethods.class
+base\DriverManager.class
